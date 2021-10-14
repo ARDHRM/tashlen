@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home - Tashlen</title>
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta name="msapplication-tap-highlight" content="no">
+	<link rel="icon" type="image/png" href="assets/img/icon.ico">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="manifest" href="manifest.json">
+	<meta name="theme-color" content="#006633">
+	<script src="http://192.168.1.200:35729/livereload.js?snipver=1"></script>
+</head>
+<body>
+
+   
+    <!--overlay-->
+    <div class="overlay-rotate-screen zx-p-fixed" data-visible="false">
+       <center>   
+        <h1>Tolong putar perangkat anda.</h1>
+        <p>Aplikasi ini hanya bisa dibuka dengan layar portrait / berdiri.</p>
+       </center>
+    </div>
+    <!--end overlay-->
+    
+    
+    <div class="wrap">
+			<div class="overlay-sidebar zx-p-fixed" data-visible="false">
+				<div class="menu">
+					<ul>
+						<li><a href="#l2-home" class="sb-button" data-active="true">Home</a></li>
+						<li><a href="#l2-kumpulan_doa" class="sb-button" data-active="false">Kumpulan Doa</a></li>
+						<!-- <li><a href="#profil" class="sb-button" data-active="false">Profil</a></li> -->
+						<li><a href="#l2-pengaturan" class="sb-button" data-active="false">Pengaturan</a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					<p>made with &hearts; by <a href="https://afarhansib.github.io/">afarhansib</a></p>
+				</div>
+			</div>
+	    <div class="overlay-block zx-p-fixed" data-visible="false"></div>
+	    <div class="overlay-pages zx-p-fixed" data-visible="false">
+	    	<div class="card">
+					<div class="card-title">
+						<a></a>
+						<div class="title"></div>
+					</div>
+					<div class="card-body">
+						
+					</div>
+				</div>
+	    </div>
+			<div class="wrap-top zx-p-fixed">
+
+
+			<!-- card top : header -->
+				<div class="card header">
+					<div class="header__menu">
+						<button class="menu-btn"></button>
+					</div>
+					<div class="header__title">
+						<a class="title" href="#l2-home">
+							<span>Tashlen <br> <img src="assets/img/logo.svg" alt="Logo"></span>
+						</a>
+					</div>
+					<div class="header__fs">
+						<button class="fs-btn"></button>
+					</div>
+				</div>
+			<!-- end card top : header -->
+
+			<!-- card middle : navbar -->
+				<div class="card navbar">
+					<a href="#l1-wirid" class="navbar-btn" data-active="false" data-goto="page-1">Wirid</a>
+					<a href="#l1-tasbih" class="navbar-btn" data-active="true" data-goto="page-2">Tasbih</a>
+					<a href="#l1-doa" class="navbar-btn" data-active="false" data-goto="page-3">Doa</a>
+				</div>
+			<!-- end card middle : navbar -->
+
+			<!-- card bottom-head : content-head -->
+				<div class="card page-head">
+					<div class="page__title">
+						<div class="title">Tasbih</div>
+					</div>
+				</div>
+		    <!-- end card bottom-head : content-head -->
+		    
+		    
+	    </div>
+	    <div class="wrap-bottom">
+		        
+		    
+		    <!-- card bottom-body : content-body  -->
+		    <div class="card page-wirid" data-visible="false">
+					<div class="page__content tempat-bacaan-wirid">
+					</div>
+				</div>
+				<div class="card page-tasbih" data-visible="true">
+					<div class="page__content">
+						<div class="tl-l-top">
+							<button class="tl-btn tbtn1" data-active="true">33</button>
+							<span>></span>
+							<button class="tl-btn tbtn2" data-active="false">33</button>
+							<span>></span>
+							<button class="tl-btn tbtn3" data-active="false">33</button>
+							<span>></span>
+							<button class="tl-btn tbtn4" data-active="false">99</button>
+						</div>
+						<!-- <div class="tl-l-mid">
+							<div class="tl-divider"></div>
+							<button class="tl-btn-h1">C</button>
+							<button class="tl-btn-h2">-</button>
+						</div> -->
+						<div class="tl-l-bot">
+							<div class="tl-num">0</div>
+							<button class="tl-big-btn" data-pressed="false"></button>
+						</div>
+					</div>
+				</div>
+				<div class="card page-doa" data-visible="false">
+					<div class="page__content tempat-bacaan-doa">
+					</div>
+				</div>
+			<!-- end card bottom-body : content-body -->
+		   
+	   
+    <div class="toast"></div>
+	    </div>
+    </div>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
